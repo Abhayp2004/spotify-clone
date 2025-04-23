@@ -1,0 +1,100 @@
+.sidebarMainContent{
+   
+    width: 20%;
+    background-color: #111010;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.sidebarTopSection{
+   
+    height: 12%;
+    border-top-right-radius: 10px;
+    border-top-left-radius:10px;
+    font-weight: 800;
+   color: whitesmoke;
+   font-size: 1.5rem;
+   display: flex;
+   justify-content: space-between;
+   padding: 0;
+   align-items: flex-start;
+   padding: 1rem;
+   box-shadow: 1px 1px rgba(97, 94, 94, 0.073);
+   
+
+}
+.sidebarMiddleSection{
+    
+    height: 35%;
+    overflow-y: scroll  ;
+    
+      ::-webkit-scrollbar-track {
+        display: none;
+      }
+}
+.sidebarMiddleCards{
+    background-color: #373636;
+    margin: 1.5rem 0.5rem;
+    padding: 1rem;
+   color: whitesmoke;
+
+}
+.sidebarMiddleCards h1{
+    font-size: 1.5rem;
+}
+.sidebarMiddleCards button{
+    border-radius: 30px;
+    font-size: 1rem;
+}
+
+.sidebarBottomSection{
+    padding: 1rem;
+    margin-top: 10px;
+}
+
+.legalLinks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.legalLinks a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: 400;
+    transition: color 0.2s ease;
+}
+
+.legalLinks a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.languageButton {
+    margin-top: 0.5rem;
+}
+
+.languageButton button {
+    background: transparent;
+    border: 1px solid #727272;
+    color: #b3b3b3;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.languageButton button:hover {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.languageButton svg {
+    fill: currentColor;
+}
