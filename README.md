@@ -63,6 +63,6 @@ Contributions are welcome! Feel free to fork the project and create a pull reque
 📜 License
 This project is for educational and portfolio purposes only. Not affiliated with Spotify.
 
-<video width="640" height="360" controls autoplay loop muted>
+<video width="300" height="360" controls autoplay loop muted>
   <source src="myvideo.mp4" type="video/mp4">
 </video>
